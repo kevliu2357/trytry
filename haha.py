@@ -1,15 +1,4 @@
-## for demonstrating debugging
-a = 1
 
-while a < 10:
-    if a <= 5:
-        print(a)
-    else:
-        print("hello")
-    a = a + 1
-
-else:
-    print("test")
 
 
 ## Choose python interpreter
@@ -18,7 +7,7 @@ else:
 
 ## Choose 'python interpreter' in 'new created virtual enviroment'
 
-## Kill the terminal;  Restart the terminal
+## Kill the terminal;      Restart the terminal
 
 ## Install black & pylint (if those does not work):      pip install -U pylint ;  pip install -U black
 
@@ -72,3 +61,16 @@ else:
 ## 非首次 使用 git 来 track changes
 # Click "+"(Stages Changes) ---- click "v(对号)" (Commit) ---- input commit message ----
 # Click "..." ---- Select "push to"
+
+## for demonstrating debugging
+a = 1
+
+while a < 10:
+    if a <= 5:
+        print(a)
+    else:
+        print("hello")
+    a = a + 1
+
+else:
+    print("test")
